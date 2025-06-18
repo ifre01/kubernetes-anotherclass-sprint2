@@ -18,7 +18,10 @@ pipeline {
     environment {
         // DOCKERHUB_USERNAME = ""
         // GITHUB_USERNAME = ""
-
+        
+        DOCKERHUB_USERNAME = "myeonghan"
+        GITHUB_USERNAME = "ifre01"
+        
         GITHUB_URL = "https://github.com/${GITHUB_USERNAME}/kubernetes-anotherclass-sprint2.git"
 
         // [2] 잦은 배포 - versioning 무의미, 계획된 배포 - versioning 필수
